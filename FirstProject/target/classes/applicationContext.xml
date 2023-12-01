@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+<!-- 	<bean id="tv" class="polymorphism.SamsungTV" p:speaker-ref="sony" p:price="2700000" />
+
+	<bean id="sony" class="polymorphism.SonySpeaker" />
+	
+	<bean id="apple" class="polymorphism.AppleSpeaker" /> -->
+	
+<!-- 	<bean id="collectionBean" class="polymorphism.CollectionBean">
+		<property name="addressList">
+			<list>
+				<value>서울시 가산디지털</value>
+				<value>수원시 화서</value>
+				<value>인천시 연수구</value>
+			</list>
+		</property>
+	</bean> -->
+	
+	<context:component-scan base-package="polymorphism"></context:component-scan>
+</beans>
